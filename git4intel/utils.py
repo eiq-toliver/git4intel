@@ -204,7 +204,8 @@ def stixprop_to_field(prop_name, prop):
         'BinaryProperty': 'binary',
         'ExtensionsProperty': 'object',
         'DictionaryProperty': 'object',
-        'EmbeddedObjectProperty': 'object'
+        'EmbeddedObjectProperty': 'object',
+        'OpenVocabProperty':'object'
     }
 
     prop_type = type(prop).__name__
